@@ -98,3 +98,4 @@ public
 # Formatting
 .prettierignore
 .prettierrc
+.eslintrc.js
