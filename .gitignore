@@ -59,6 +59,10 @@ typings/
 # Output of 'npm pack'
 *.tgz
 
+# Yarn
+yarn-error.log
+.pnp/
+.pnp.js
 # Yarn Integrity file
 .yarn-integrity
 
@@ -67,7 +71,11 @@ typings/
 .env.test
 
 # parcel-bundler cache (https://parceljs.org/)
-.cache
+.cache/
+public
+
+# Mac files
+.DS_Store
 
 # next.js build output
 .next
@@ -86,3 +94,7 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+
+# Formatting
+.prettierignore
+.prettierrc
